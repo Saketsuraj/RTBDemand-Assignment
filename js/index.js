@@ -17,11 +17,11 @@ $.ajax({
                     }
                 }
                 var cricketlead = mainQst.data_lead;
-                // for (j in cricketlead) {
-                //     console.log("cricketlead" + cricketlead[j].icon_url);
-                //     $("#demandimg").attr("src", cricketlead[j].icon_url);
-                //     $("#download_state").attr("href", cricketlead[j].start.download);
-                // }
+                for (j in cricketlead) {
+                    console.log("cricketlead" + cricketlead[j].icon_url);
+                    $("#demandimg").attr("src", cricketlead[j].icon_url);
+                    $("#download_state").attr("href", cricketlead[j].start.download);
+                }
                 $(document).ready(function () {
 
                     $(".closechat").click(function () {
@@ -43,11 +43,11 @@ $.ajax({
                     }
                 }
                 var cricketlead = mainQst.data_lead;
-                // for (j in cricketlead) {
-                //     console.log("cricketlead" + cricketlead[j].icon_url);
-                //     $("#demandimg").attr("src", cricketlead[j].icon_url);
-                //     $("#download_state").attr("href", cricketlead[j].start.download);
-                // }
+                for (j in cricketlead) {
+                    console.log("cricketlead" + cricketlead[j].icon_url);
+                    $("#demandimg").attr("src", cricketlead[j].icon_url);
+                    $("#download_state").attr("href", cricketlead[j].start.download);
+                }
                 $(document).ready(function () {
 
                     $(".closechat").click(function () {
