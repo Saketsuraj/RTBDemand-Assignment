@@ -1,5 +1,5 @@
 $.ajax({
-    url: "http://hbadapt.andbeyond.media/apichatnew.php?aff=332117&env=DESKTOP&city=BANGALORE",
+    url: "//hbadapt.andbeyond.media/apichatnew.php?aff=332117&env=DESKTOP&city=BANGALORE",
     type: "GET",
     success: function(response){
         console.log(response);
